@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="gmail_user">username</string>
+    <string name="gmail_pass">password</string>
+    <string name="gmail_from">from@address</string>
+
+    <string name="sakura_smtp">smtp_server</string>
+    <string name="sakura_user">username</string>
+    <string name="sakura_pass">password</string>
+    <string name="sakura_from">from@address</string>
+
+    <string name="notice_dest">to@address</string>
+
+</resources>

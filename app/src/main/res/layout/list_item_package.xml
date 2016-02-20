@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_package_name"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Switch
+        android:text="転送"
+        android:id="@+id/switch_forward"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:textOn="yeah"
+        android:textOff="oh.."
+        android:singleLine="true"
+        />
+
+    <Switch
+        android:text="無視"
+        android:id="@+id/switch_ignore"
+        android:layout_toLeftOf="@id/switch_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_marginRight="16dip"
+        android:textOn="yeah"
+        android:textOff="oh.."
+        android:singleLine="true"
+        />
+
+</RelativeLayout>
