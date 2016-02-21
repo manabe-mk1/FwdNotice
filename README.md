@@ -5,4 +5,5 @@
 * kotlinによるAndroidアプリ
 * sqlite
 * java mail
+
 の習作
